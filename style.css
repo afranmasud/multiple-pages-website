@@ -1,9 +1,35 @@
-h1{
+*{
+    margin: 0;
+    pad: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1244;
+  padding: 10px 200px;
+}
+ul {
+    display: flex;
+}
+ nav ul li{
+    list-style: none;
+ }
+ nav ul li a{
+    text-decoration: none;
+    margin: 10px 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+ }
+  nav ul li a:hover{
+    background-color: black;
     color: brown;
-}
-h2{
-    color: black;
-}
-h3{
-    color: darkgreen;
-}
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+
+ nav div{
+    color: white;
+ }
