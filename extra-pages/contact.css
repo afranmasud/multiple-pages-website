@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   background-color: #401e63;
+   padding: 10px 200px;
+   border-bottom: 4px solid #401e63;
+   position: sticky;
+   top: 0;
+ 
+}
+nav ul{
+   display: flex;
+}
+nav ul li{
+   list-style: none;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   margin: 10px 10px;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 20px;
+   transition: 0.5s;
+    
+}
+nav ul li a:hover{
+  background-color: black;
+  color: brown;
+}
+nav div{
+color: white;
+}
+form{
+    width: 800px;
+   background-color: darksalmon;
+    margin: 80px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px gray;
+    
+
+}
+form h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.email-form-parent input{
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    color: gray;
+    border: 2px solid gray;
+}
+form textarea{
+    display: block;
+    margin: 24px auto;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.submit-btn{
+    display: block;
+    margin: 30px auto;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    width: 400px;
+    border-radius: 20px;
+    background: linear-gradient(to right, blue ,blueviolet,aqua);
+    color: aliceblue;
+}

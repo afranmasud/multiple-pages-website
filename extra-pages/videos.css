@@ -1,0 +1,130 @@
+ 
+ *{
+   margin: 0;
+   padding: 0;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   background-color: #401e63;
+   padding: 10px 200px;
+   border-bottom: 4px solid #401e63;
+   position: sticky;
+   top: 0;
+ 
+}
+nav ul{
+   display: flex;
+}
+nav ul li{
+   list-style: none;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   margin: 10px 10px;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 20px;
+   transition: 0.5s;
+    
+}
+nav ul li a:hover{
+  background-color: black;
+  color: brown;
+}
+nav div{
+color: white;
+}
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ main{
+      background-color: #094364;
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+    .main-section{
+      width: 1100px;
+      margin: 0px auto;
+      padding: 50px 0px;
+    }
+    .latest-video-text{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .lates-text{
+      font-size: 20px;
+      font-weight: bold;
+      color: #04aa6b;
+    }
+    .lates-pages{
+       font-weight: bold;
+       color: #04aa6b;
+    }
+    .lates-pages span{
+      background-color: antiquewhite;
+      padding: 5px;
+      border: 2px solid gray;
+      border-radius: 5px;
+      margin: 0px 10px;
+      cursor: pointer;
+    }
+    .single-item-parent{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 60px;
+    }
+    .single-items{
+      height: 250px;
+    }
+
+    .single-items img{
+      width: 100%;
+      height: 100%;
+      border: 2px solid grey;
+      transition: 0.5s;
+    }
+    .single-items img:hover{
+       transform: scale(1.1);
+       border-radius: 20px;
+    }
+    .single-items div {
+      display: flex;
+      justify-content: space-between;
+      font-size: 15px;
+      margin-top: 10px;
+      color: grey;
+    }
+    .previous-next-section{
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .previous-next-section a{
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+    }
+    .previous-next-section h3{
+      background-color: #04aa6b;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: 0.5s;
+    }
+    .previous-next-section h3:hover{
+      background-color: #066943;
+    }
+    .previous-next-section div a{
+      margin: 0px 10px;
+      background-color: aliceblue;
+      color: black;
+      padding: 5px;
+      border-radius: 4px;
+    }
+    .previous-next-section div a:first-child{
+      background-color: #04aa6b;
+    }
